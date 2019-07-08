@@ -1,0 +1,147 @@
+body{
+	margin: auto;
+	width: 1000px;
+	height: 1800px;
+}
+#header{
+	border-top: solid 5px darkturquoise;
+	padding: 20px 10px;	
+    display: flex;
+    justify-content: flex-end;
+}
+.up{
+	padding: 0px 10px;	
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.icon{
+	width: 40px;
+	height: 40px;
+}
+#footer{
+	background-color: #252525;
+	color: lightgray;
+}
+
+.grid3{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-column-gap: 20px;
+	padding: 10px;
+	font-size: small;
+}
+.grid3 h4{
+	color:darkturquoise;
+}
+.zero{
+	margin: 0;
+	padding: 0;
+}
+ul.zero{
+	list-style: none;
+	display: flex;
+}
+ul li{
+	margin-left: 10px;
+}
+a{
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+}
+.search{
+background-color: lightgray;
+color: darkgray;
+border: none;
+width: 200px;
+padding: 7px;
+border-radius: 10px;
+}
+input[type='submit']{
+	
+    background-color: darkturquoise;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 7px;
+    border-radius: 12%;
+}
+.end{
+	background-color: #1a1a1a;
+	color: lightgray;
+	padding: 20px;
+}
+
+.border{
+	border-bottom: solid 2px darkgrey;
+	color:darkturquoise;	
+	padding-bottom: 10px;
+}
+.right{
+	float: right;
+	color:darkturquoise;
+}
+.inptext{
+    background-color: #2c2c2c;
+    border: none;
+	color: white;
+	margin-bottom: 12px;
+    border-radius: 12px;
+    padding: 7px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.bordt{
+	border-top: solid gray;
+	padding: 20px;
+}
+.item div img{
+
+	width: 100%;
+}
+.grid9{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.center a{
+	font-size: larger;
+}
+.webd{
+	padding: 20px;
+	text-align: center;
+}
+.img300{
+	width: 300px;
+	height: 160px;
+}
+
+.item div{
+	margin:40px;
+}
+.carousel-indicators li{
+	border:1px solid black;
+}
+.carousel-indicators .active{
+	background-color: blue;
+}
+
+.carousel-inner{
+	height: inherit;
+}
+.img100{
+	width: 100px;
+	height: 100px;
+}
